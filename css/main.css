@@ -35,16 +35,22 @@ a{
 
 
 
-.gallery{
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
-	grid-gap: 20px;
+.gallery-image img{
+    height: 200px;
+    width: 200px;
 }
 
-.gallery-img img{
-    border: 1px #ffd700;
-    padding: 10px;
+.gallery-image{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
+	grid-gap: 2px;
 }
+
+.gallery h2{
+    text-align: center;
+}
+
+
 
 
 
@@ -73,16 +79,18 @@ a{
     }
 
 
-    .gallery{
+    .gallery-image img{
+        height: 400px;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .gallery-image{
         display: block;
+   
     }
 
-    .gallery-img img{
-        padding: 10px !important;
-        width: 100% !important;
-        height: 300px !important;
-    }
-
+   
     .chaplain{
         display: block !important;
         margin: 0;
