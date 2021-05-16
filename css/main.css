@@ -1,3 +1,14 @@
+
+
+
+
+
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+i{
+margin-bottom: 10px !important;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -23,7 +34,10 @@ a{
 
 .hero img{
     width: 400px;
-    height: 600px;
+}
+
+.chaplain img{
+    width: 280px !important;
 }
 
 /* main styling */
@@ -49,6 +63,26 @@ a{
 .gallery h2{
     text-align: center;
 }
+
+/* GALLERY NAVIGATION */
+.more a:hover{
+    background: #000;
+    color: yellow !important;
+    padding: 10px;
+}
+
+
+/* SPECIAL */
+.list-item li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.list-item .btn{
+    display: none !important;
+}
+ /* SPECIAL ENDS */
 
 
 
@@ -95,6 +129,41 @@ a{
         display: block !important;
         margin: 0;
     }
+
+    /* GAlllERY NAVIGATION */
+
+    .more a:hover{
+        background: #000;
+        color: yellow !important;
+        padding: 10px;
+    }
+
+
+
+    /* SPECIAL  */
+    .btn{
+        display: block !important;
+    }
+
+    .hide{
+        display: none;
+
+    }
+
+    .hide.active{
+        display: block;
+        /* height: 100vh; */
+    }
+
+
+
+    .list-item{
+        display: block;
+    }
+
+ /* SPECIAL ENDS */
+
+
 
 
     
